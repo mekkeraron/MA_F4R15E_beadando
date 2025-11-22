@@ -7,7 +7,7 @@ Monogram: MA (a programban)
 
 
 Feladat leírása:
-A program egy tkinter alapú grafikus felületet biztosít, melynek segítségével a felhasználó a világ bármely településére rákereshet és lekérhet onnan valós, élő időjárási adatokat (égkép, hőmérséklet (°C és °F), páratartalom) az Open-Meteo API szolgáltatás használatával. A lekért adatokat élőben módosíthatja (azaz más város is lekérhető a futás közben), azokat elmentheti egy pillanatnyi_idojaras_adat.txt nevű szövegfájlba, valamint a korábban lekérdezett adatokat visszamenőleg megtekintheti a lekerdezesek.db adatbázisából.
+A main.py fálj futtatásával a program egy tkinter alapú grafikus felületet biztosít, melynek segítségével a felhasználó a világ bármely településére rákereshet és lekérhet onnan valós, élő időjárási adatokat (égkép, hőmérséklet (°C és °F), páratartalom) az Open-Meteo API szolgáltatás használatával. A lekért adatokat élőben módosíthatja (azaz más város is lekérhető a futás közben), azokat elmentheti egy pillanatnyi_idojaras_adat.txt nevű szövegfájlba, valamint a korábban lekérdezett adatokat visszamenőleg megtekintheti a lekerdezesek.db adatbázisából.
 
 A grafikus felületen található gombok és funkcióik:
 - Adatok lekérése: A helységnév megadása után használható, lekérdezi és kijelzi a felületen az adatokat.
@@ -62,3 +62,4 @@ A program futásához társuló fájlok listája (szükséges helyük: gyökérk
 - zivatar.gif
 - szeles.gif
 - ismeretlen.gif
+
